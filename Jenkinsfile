@@ -1,13 +1,13 @@
 node {
 
 stage('SCM'){
- git 'https://github.com/thomas-martin-adaming/testApp/clientui'
- git 'https://github.com/thomas-martin-adaming/testApp/config-server'
- git 'https://github.com/thomas-martin-adaming/testApp/eureka-server'
- git 'https://github.com/thomas-martin-adaming/testApp/microservice-compte-comptable'
- git 'https://github.com/thomas-martin-adaming/testApp/microservice-journal'
- git 'https://github.com/thomas-martin-adaming/testApp/microservice-utilisateur'
- git 'https://github.com/thomas-martin-adaming/testApp/zuul-server'
+ git 'https://github.com/thomas-martin-adaming/testApp/tree/master/clientui'
+ git 'https://github.com/thomas-martin-adaming/testApp/tree/master/config-server'
+ git 'https://github.com/thomas-martin-adaming/testApp/tree/master/eureka-server'
+ git 'https://github.com/thomas-martin-adaming/testApp/tree/master/microservice-compte-comptable'
+ git 'https://github.com/thomas-martin-adaming/testApp/tree/master/microservice-journal'
+ git 'https://github.com/thomas-martin-adaming/testApp/tree/master/microservice-utilisateur'
+ git 'https://github.com/thomas-martin-adaming/testApp/tree/master/zuul-server'
 }
 
 stage('Compile'){
